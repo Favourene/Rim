@@ -8,29 +8,9 @@ Body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(4.jpg);
+    background: white;
     background-size: cover;
     background-position: center;
-}
-/*--------Cloud animation-------*/
-.anime{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(cloud.png);
-    background-position: center;
-    animation: animate 60s linear infinite;
-}
-
-@keyframes animate{
-    0%{
-        background-position: 0px;
-    }
-    100%{
-        background-position: -5440px;
-    }
 }
 /*------------Navigation Bar------------------*/
 nav{
@@ -130,7 +110,7 @@ input[type="checkbox"]{
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+     Justify-content: center;
     padding-left: 10px;
 }
 .dell{
@@ -139,18 +119,12 @@ input[type="checkbox"]{
     color: white
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     border-radius: 30px;
 }
 img:hover{
     border-bottom: 2px solid cadetblue;
-}
-@media screen and (max-width:600px){
-    img{
-        height: 150px;
-        width: 150px;
-    }
 }
 h2{
     color: rgb(217, 240, 175);
